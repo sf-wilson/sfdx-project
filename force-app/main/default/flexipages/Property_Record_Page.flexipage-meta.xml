@@ -6,6 +6,10 @@
                 <name>collapsed</name>
                 <value>false</value>
             </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideChatterActions</name>
+                <value>false</value>
+            </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
         <mode>Replace</mode>
@@ -13,11 +17,7 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>force:relatedListContainer</componentName>
-        </componentInstances>
-        <mode>Replace</mode>
-        <name>relatedTabContent</name>
+        <name>Facet-a21a822f-07a0-45c1-bef5-bcd0a5492747</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -32,7 +32,7 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>relatedTabContent</value>
+                <value>Facet-a21a822f-07a0-45c1-bef5-bcd0a5492747</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
@@ -60,6 +60,13 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>animations</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>PictureGalleryCard</componentName>
+        </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
                 <name>tabs</name>
