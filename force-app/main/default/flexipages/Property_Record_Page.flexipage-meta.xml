@@ -17,7 +17,23 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>Facet-a21a822f-07a0-45c1-bef5-bcd0a5492747</name>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>relatedListComponentOverride</name>
+                <value>NONE</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>rowsToDisplay</name>
+                <value>10</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showActionBar</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>force:relatedListContainer</componentName>
+        </componentInstances>
+        <mode>Replace</mode>
+        <name>relatedTabContent</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -32,7 +48,7 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>Facet-a21a822f-07a0-45c1-bef5-bcd0a5492747</value>
+                <value>relatedTabContent</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
